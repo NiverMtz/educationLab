@@ -38,4 +38,13 @@ function autoplay() {
     }, 5000);
 }
 
+function stop() {
+    clearInterval(interval);
+    console.log("stop");
+}
+
+slider.on('click', function() {
+    stop();
+});
+
 autoplay();
