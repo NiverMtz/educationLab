@@ -7,7 +7,7 @@
 
 body {
 	/*font-size: 15px;*/
-    line-height: 1.52;
+    line-height: 1.60;
     /*color: #5fcf80; */
     font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6{
     color: #4B4B4C;
 }
 a{
-    color: #5fcf80;
+    color: #25a2c8; /*#5fcf80*/
 }
 a:hover, a:focus{
     color: #0101DF;
@@ -76,15 +76,15 @@ Navigation bar
 }
 
 .btn-trial a{
-	background-color: #5FCF80;
+	background-color: #25a2c8;
 	border-radius: 25px;
 	color: #ffffff !important;
-	border: 1px solid #5FCF80;
+	border: 1px solid #25a2c8;
 }
 .btn-trial a:hover, .btn-trial a:focus{
-	border: 1px solid #5FCF80;
+	border: 1px solid #25a2c8; /*#5FCF80*/
 	background-color: #fff;
-	color: #5FCF80 !important;
+	color: #25a2c8 !important;
 }
 .navbar-default .navbar-brand {
     font-family: 'Dosis', sans-serif !important;
@@ -136,7 +136,7 @@ Navigation bar
   }
   
     .drop-down ul a:hover,   .drop-down ul .active > a,   .drop-down ul li:hover > a {
-    color: #7efd34;
+    color: #25a2c8; /*#7efd34*/
   }
   
   .drop-down > a:after {
@@ -384,8 +384,8 @@ Banner
 }
 .padleft-right{
     padding-left: 5px;
-    padding-right: 0px;
-}
+    padding-right: 5px;
+} 
 .big-text{
     font-size: 35px;
 }
@@ -555,7 +555,7 @@ h2{
 }
 .orga-stru
 {
-    background-color: #5FCF80;
+    background-color: #25a2c8; /*5FCF80*/
     width: 109px;
     height: auto;
     padding: 10px 10px 25px 10px;
@@ -566,12 +566,12 @@ h2{
     -o-border-radius: 0px 80px 99px 99px;
 }
 .orga-stru h3 {
-    font-size: 36px;
+    font-size: 32px;
     color: white;
     font-weight: bold;
 }
 .orga-stru p {
-    font-size: 14px;
+    font-size: 15px;
     color: white;
     font-weight: normal;
     line-height: 20px;
@@ -579,7 +579,7 @@ h2{
 }
 .orga-stru i
 {
-    font-size: 150px;
+    font-size: 70px;
     margin-top: 35px;
     color: rgb(255, 255, 255);
 }
@@ -802,10 +802,10 @@ Mentor Team
   display: inline-block;
 }
 .pm-staff-profile-details {
-    padding: 20px 20px;
+    padding: 10px 10px; 
 }
 .pm-staff-profile-name {
-    font-size: 24px;
+    font-size: 20px;
     text-transform: capitalize;
     color: #2b5d83;
 }
@@ -813,12 +813,14 @@ Mentor Team
     text-transform: capitalize;
     color: #4b4b4b;
     font-weight: 500;
-    padding: 12px 0px;
+    font-size: 15px;
+   /* padding: 12px 0px; */
 }
 .pm-staff-profile-bio {
   text-transform: capitalize;
   color: #4b4b4b;
   font-weight: 100;
+  font-size: 15px;
 }
 /***********************************
 Testimonial
@@ -841,11 +843,11 @@ Testimonial
 Course
 ************************************/
 [class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
-    background-color: #5FCF80;
+    background-color: #fff; /*#5FCF80*/
 }
 [class*=" imghvr-"], [class^="imghvr-"] {
-    background-color: #5FCF80;
-    color: #fff;
+    background-color: #fff; /*5FCF80*/
+    color: #fff; /*fff*/
 }
 /***********************************
 Price Table
@@ -957,7 +959,7 @@ Contact Us
 Footer
 ************************************/
 .footer {
-    padding: 60px 0 20px;
+   /* padding: 60px 0 20px; */
     background: #111;
     color: #ccc;
 }
@@ -1061,7 +1063,7 @@ Footer
     padding: 10px 20px;
 }
 .light-form-button{
-    background: #5fcf80;
+    background: #25a2c8; /*5fcf80*/
     border: 1px solid rgba(119, 81, 81, 0.34);
     width: 24%;
     padding: 10px 10px;
@@ -1075,7 +1077,7 @@ Footer
   transition: all 0.3s ease-in-out;
 }
 .btn-green, .btn-green:hover{
-    background-color: #5fcf80;
+    background-color: #25a2c8; /**/
     color: #fff;
 }
 .footer .form-control:focus{
